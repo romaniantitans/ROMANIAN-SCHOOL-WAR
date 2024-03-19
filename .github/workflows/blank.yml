@@ -1,0 +1,35 @@
+local players = game:GetService("Players")
+local replicatedstorage = game:GetService("ReplicatedStorage")
+
+local StartFightEvent = instance.new("RemoteEvent")
+startFightEvent.Name = "StartFightEvent"
+startFightEvent.Parent = ReplicatedStorage
+
+local function startFight(player)
+startFightEvent.OnServerEvent:Connect(startFight)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
